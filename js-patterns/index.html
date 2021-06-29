@@ -1,0 +1,157 @@
+
+<!-- Number pattern 5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern 5</title>
+</head>
+<body>
+    
+
+    <script type="text/javascript" >
+    
+    var num = 5;
+    var m, n;
+    for(m = 1; m < num; m++) {
+        for(n = 1; n <= m; n++)
+        document.write("" + n + "");
+        document.write('<br/>');
+    }
+
+    for(m = num; m >= 0; m--) {
+        for(n = 1; n <= m; n++)
+        document.write("" + n + " ");
+        document.write('<br/>');
+    }
+    document.write('<br/>');
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Number patterns #2 -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern 2</title>
+</head>
+<body>
+    
+
+    <script type="text/javascript" >
+// each time it iterates through the loop it prints a number, a space and then breaks the 
+// sentence.  it will keep doing that til it hits 5.
+        for (i = 1; i <= 5; i++)
+        {
+        for (j = 1; j <= i; j++) 
+        {
+        document.write(j);
+        if (j == i) continue;
+        else
+        document.write(' ')    
+        }
+        document.write('<br />');
+        }
+
+ /*
+ Output:
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+ 
+ */
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Number patterns #1 -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Number Patterns 1</title>
+</head>
+<body>
+    
+<script type="text/javascript" >
+
+// variable to get the number
+var num; 
+// prompt for user to enter a value;
+var no=prompt("Please provide a number for the no of rows to be printed in a pattern.");
+
+// loop that iterates via the value entered.  And it prints a 1 each time.
+for(var m = 1; m <= no; m++) 
+{
+    // nested for loop that prints a 1 
+    for(var n = 1; m <= m; n++) 
+    {
+        document.write('0' + n + " ");
+    }
+    document.write("<br />");
+}
+
+
+</script>
+
+
+</body>
+</html> -->
